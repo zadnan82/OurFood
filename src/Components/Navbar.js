@@ -11,7 +11,7 @@ export const Navbar = () => {
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
                 <a href="#about">Work</a>
-                <a href="#contact">References</a>
+                <a href="#contact">Referencessssss</a>
               </div>
             </nav>
           );
