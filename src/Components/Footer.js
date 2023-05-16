@@ -1,62 +1,64 @@
 import React from 'react' 
-import "../Styling/Footer.css";
-import { BsLinkedin } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import Logo from "../Assets/logo.png";
+import "../assets/css/main.css"; 
 
 const Footer = () => {
   return (
-    <footer>
-     <div className="col-6">
-        <img src={Logo} alt="" />
 
-        <div className="footer__socials">
-        <a href="#" target="_blank">
-          <BsLinkedin />
-        </a>
-        <a href="#" target="_blank">
-          <FaYoutube/>
-        </a>
-        <a href="#" target="_blank">
-          <FaTwitter/>
-        </a>
-        <a href="#" target="_blank">
-          <BsFacebook />
-        </a>
+    <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+           
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat: 11AM</strong> - 23PM
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
       </div>
-      
+    </div>
 
-      <ul className="permalinks">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#experience">Experience</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-      </ul>
-
-     
-
-      <div className="footer__copyright">
-        <small>&copy; Richard Chalk</small>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
       </div>
+      <div class="credits">
+        
       </div>
-    </footer>
+    </div>
+
+  </footer>
   );
 };
 

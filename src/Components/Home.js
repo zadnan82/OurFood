@@ -1,34 +1,32 @@
 import React from 'react'
-import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+import BannerBackground from "../assets/home-banner-background.png";
+import BannerImage from "../assets/home-banner-image.png";
 import { FiArrowRight } from "react-icons/fi";
-import "../Styling/Home.css";
-import Navbar from './Navbar';
+import "../assets/css/main.css"; 
+import Header from './Header';
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <Navbar />
-      <div className="home-banner-container" id="home">
-        <div className="home-bannerImage-container">
-          <img src={BannerBackground} alt="" />
+    <div >
+      <Header/>
+      <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Enjoy Your Healthy</h2>
+          <h2>Delicious Food</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
         </div>
-        <div className="home-text-section">
-          <h1 className="primary-heading">
-            Din favoritmat levererad hem till din dörr!
-          </h1>
-          <p className="primary-text">
-            Richard och Stefan gör allt preperationsarbete så du enkelt kan
-            förberada god, prisvärd & nyttig mat.
-          </p>
-          <button className="secondary-button">
-            Beställ nu <FiArrowRight />{" "}
-          </button>
-        </div>
-        <div className="home-image-section">
-          <img src={BannerImage} alt="" />
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src={BannerImage} class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300"/>
         </div>
       </div>
+    </div>
+  </section>
     </div>
     
   );
