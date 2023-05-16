@@ -5,13 +5,13 @@ import { BsFacebook } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import Logo from "../Assets/logo.png";
+// import Logo from "../Assets/logo.png";
 
 const Footer = () => {
   return (
     <footer>
      <div className="col-6">
-        <img src={Logo} alt="" />
+        {/* <img src={Logo} alt="" /> */}
 
         <div className="footer__socials">
         <a href="#" target="_blank">
