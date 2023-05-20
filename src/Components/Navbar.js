@@ -16,6 +16,7 @@ import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { useState } from "react";
+import "../assets/css/main.css";
 
 
 const Navbar = () => {
@@ -46,47 +47,35 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <nav>
-      <div className="nav-logo-container">
-        {/* <img src={Logo} alt="" /> */}
-      </div>
-      <div className="navbar-links-container">
-        <a href="">Hem</a>
-        <a href="#about">Om</a>
-        <a href="#testomonials">Referenser</a>
-        <a href="#kontakt">Kontakt</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Boka nu</button>
-      </div>
-      <div className="navbar-menu-container">
-        <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
-      </div>
-       {/* https://mui.com/material-ui/react-drawer/ */}
-<Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
-  <Box
-    sx={{ width: 250 }}
-    role="presentation"
-    onClick={() => setOpenMenu(false)}
-    onKeyDown={() => setOpenMenu(false)}
-  >
-    <List>
-      {menuOptions.map((item) => (
-        <ListItem key={item.text} disablePadding>
-          <ListItemButton>
-            <ListItemIcon>{item.icon}</ListItemIcon>
-            <ListItemText primary={item.text} />
-          </ListItemButton>
-        </ListItem>
-      ))}
-    </List>
-    <Divider />
-  </Box>
-</Drawer>
-
-    </nav>
-  );
+    <nav id="navbar" class="navbar">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#chefs">Chefs</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+        <ul>
+          <li><a href="#">Drop Down 1</a></li>
+          <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Deep Drop Down 1</a></li>
+              <li><a href="#">Deep Drop Down 2</a></li>
+              <li><a href="#">Deep Drop Down 3</a></li>
+              <li><a href="#">Deep Drop Down 4</a></li>
+              <li><a href="#">Deep Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Drop Down 2</a></li>
+          <li><a href="#">Drop Down 3</a></li>
+          <li><a href="#">Drop Down 4</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  )
 }
 
 
