@@ -7,6 +7,7 @@ import Header from './Components/Header';
 import "./assets/css/main.css";
 import Gallery from './Components/Gallery';
 import About from './Components/About';
+import Work from './Components/Work';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 
 			<Header />
 			<Home />
+			<Work />
 			<About />
 			<Contact />
 			<Footer />
