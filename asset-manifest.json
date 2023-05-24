@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/%7BOurFood%7D/static/css/main.d8778b4f.css",
+    "main.js": "/%7BOurFood%7D/static/js/main.1ed23c57.js",
+    "static/media/stats-bg.jpg": "/%7BOurFood%7D/static/media/stats-bg.80e2264dc486d45b803e.jpg",
+    "static/media/hero-img.png": "/%7BOurFood%7D/static/media/hero-img.c2d55dfac66bc8e9a970.png",
+    "static/media/gallery-5.jpg": "/%7BOurFood%7D/static/media/gallery-5.0b06e4efbe1e819ed794.jpg",
+    "static/media/gallery-4.jpg": "/%7BOurFood%7D/static/media/gallery-4.940648e6fb8f268e028b.jpg",
+    "static/media/gallery-6.jpg": "/%7BOurFood%7D/static/media/gallery-6.e071ad58cc544ff6ed75.jpg",
+    "static/media/gallery-7.jpg": "/%7BOurFood%7D/static/media/gallery-7.187aab3b25d8a708124d.jpg",
+    "static/media/about-2.jpg": "/%7BOurFood%7D/static/media/about-2.14937b5ba83cf6704df2.jpg",
+    "static/media/about.jpg": "/%7BOurFood%7D/static/media/about.a547d8e78393bae9e926.jpg",
+    "static/media/gallery-8.jpg": "/%7BOurFood%7D/static/media/gallery-8.47fcc75d79fb4afa666f.jpg",
+    "static/media/gallery-1.jpg": "/%7BOurFood%7D/static/media/gallery-1.598b14d604e8d21e0e4e.jpg",
+    "static/media/gallery-3.jpg": "/%7BOurFood%7D/static/media/gallery-3.646dbc86bff81b993c96.jpg",
+    "static/media/gallery-2.jpg": "/%7BOurFood%7D/static/media/gallery-2.ddb0b132f388e7496599.jpg",
+    "static/media/testimonials-2.jpg": "/%7BOurFood%7D/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
+    "static/media/testimonials-1.jpg": "/%7BOurFood%7D/static/media/testimonials-1.54f2a70e2804cdf6f09d.jpg",
+    "static/media/testimonials-4.jpg": "/%7BOurFood%7D/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
+    "static/media/testimonials-3.jpg": "/%7BOurFood%7D/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
+    "index.html": "/%7BOurFood%7D/index.html",
+    "static/media/team-shape.svg": "/%7BOurFood%7D/static/media/team-shape.1f61b646ef96bc3ea57d.svg",
+    "main.d8778b4f.css.map": "/%7BOurFood%7D/static/css/main.d8778b4f.css.map",
+    "main.1ed23c57.js.map": "/%7BOurFood%7D/static/js/main.1ed23c57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8778b4f.css",
+    "static/js/main.1ed23c57.js"
+  ]
+}
