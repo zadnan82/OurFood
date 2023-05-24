@@ -8,6 +8,7 @@ import "./assets/css/main.css";
 import Gallery from './Components/Gallery';
 import About from './Components/About';
 import Work from './Components/Work';
+import References from './Components/References';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Home />
 			<Work />
 			<About />
+			<References/>
 			<Contact />
 			<Footer />
 		</div>
