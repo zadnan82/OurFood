@@ -16,8 +16,8 @@ function App() {
 
 			<Header />
 			<Home />
-			<Work />
 			<About />
+			<Work />
 			<References/>
 			<Contact />
 			<Footer />
